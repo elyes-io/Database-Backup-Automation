@@ -10,10 +10,10 @@ The **Database Backup Automation** project is a Python-based tool that automatic
 - **Easy Restoration**: The backup file can be used to restore the database schema if needed.
 
 ## Requirements
-- Python 3.x
-- MySQL Database
+- `Python 3.x`
+- `MySQL Database`
 - `mysql-connector-python` library
-- .env file containing ( DATABASE_USER=... , DATABASE_PASSWORD=... , DATABASE_NAME=... , PORT=... , HOST=...
+- .env file containing ( DATABASE_USER=... , DATABASE_PASSWORD=... , DATABASE_NAME=... , PORT=... , HOST=... )
 
 ## How to Use
 
