@@ -22,3 +22,18 @@ The **Database Backup Automation** project is a Python-based tool that automatic
    ```bash
    pip -r install requirements.txt 
    ```
+2. **Containerize The Application**  
+   a- Create an image
+   ```bash
+   docker build -t dataabse_image .
+   ```
+   
+   b- Run a container
+   ```bash
+   docker run --name database_container -dt -p 5000:5000 --restart unless-stopped --network bridge database_image
+   ```
+   
+   c- List the container
+   ```bash
+   docker ps database_container
+   ```
